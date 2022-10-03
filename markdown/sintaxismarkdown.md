@@ -113,17 +113,17 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
     Links o Enlaces en linea , se crean con los operadores:[]() ejemplo:[Aquí el texto a    mostrar](Aquí el enlace)
  -->
 
-## [Link a una página web](https://developer.mozilla.org)
+## [Link a una página web](https://github.com/0sc4rj)
 
-[Link a una imagen](https://www.noticierovallarta.com/wp-content/uploads/2022/03/Mozilla-lanza-MDN-Plus-la-version-mejorada-de-su-plataforma.jpg)
+[Link a una imagen](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
 <!--
     Mejorando los Links o Enlaces en linea, para poder reutilizarlo en cualquier parte del código. con el operador [nombre que quiero darle al enlace][nombre de la referencia] Ejemplo: [][]
  -->
 
-[mdn]: https://developer.mozilla.org
+[github]: https://github.com/0sc4rj
 
-[Esto es un enlace a MDN][mdn]
+[Esto es un enlace a GitHub][github]
 
 ---
 
@@ -143,7 +143,13 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
     Es muy parecido a insertarla con un enlace, pero en este caso el enlace sería la ubicación de la imagen dentro del proyecto. Como se ve se puede incluir texto alternativo: Es lo que aparecería en caso de no cargar la imagen y título alternativo: Es lo que aparece cuando se deja el ratón encima de la imagen .
   -->
 
-![Esta es una imagen del logo de Ubuntu](/img/Logo-Ubuntu.png "Este es el Título alt")
+![Esta es una imagen del logo de Ubuntu](/img/Groupgithub-green.svg "etiqueta alt")
+
+![Esta es una imagen del logo de Ubuntu](/img/Groupgithub-red.svg "etiqueta alt")
+
+![Esta es una imagen del logo de Ubuntu](/img/Groupgithub-orange.svg "etiqueta alt")
+
+---
 
 <!--
     Reutilización de imágenes, mejorando el código
@@ -154,17 +160,31 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
 
 <!-- Este apartado lo podemos declarar cuantas veces queramos -->
 
-![Imagen mdn][imgmdn]
-![Imagen mdn][imgmdn]
+![Imagen][img]
 
-<!-- Esto solo de declara una sola vez -->
+<!-- Esto solo se declara una sola vez ⬇️ -->
 
-[imgmdn]: /img/imagenmdn.jpeg "Este es el titulo Alt"
+[img]: /img/Groupgithub-pink.svg "etiqueta alt"
 
-![Imagen mdnDos][imgmdndos]
-![Imagen mdnDos][imgmdndos]
+<!-- Esto solo se declara cuantas veces queramos ⬇️ -->
 
-[imgmdndos]: /img/imagenmdnDos.png "este es titulo alt "
+![Imagen Dos][imgdos]
+![Imagen Dos][imgdos]
+
+[imgdos]: /img/Groupgithub-blue.svg "etiqueta alt"
+
+![Imagen Tres][imgtres]
+![Imagen Tres][imgtres]
+![Imagen Tres][imgtres]
+
+[imgtres]: /img/Groupgithub-violet.svg "etiqueta alt"
+
+![Imagen Cuatro][imgcuatro]
+![Imagen Cuatro][imgcuatro]
+![Imagen Cuatro][imgcuatro]
+![Imagen Cuatro][imgcuatro]
+
+[imgcuatro]: /img/Groupgithub-yellow.svg "etiqueta alt"
 
 ---
 
@@ -172,7 +192,7 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
   Links Automáticos, validos para mostrar una URL completa y se utilizan los operadores <URL>
  -->
 
-<http://developer.mozilla.org>
+<http://github.com/0sc4rj>
 
 <!--
   Podemos omitir markdown con el operador barra invertida \ Ejemplo \ # h1
