@@ -2,6 +2,6 @@
 
 ![Esta es una imagen del logo de Ubuntu](/img/Groupgithub-green.svg "etiqueta alt")
 
-# Pagina oficial de github, donde puedes encontrar el logo en todos sus formatos.
+# Página oficial de github, donde puedes encontrar el logo en todos sus formatos.
 
 # **[Github]**
