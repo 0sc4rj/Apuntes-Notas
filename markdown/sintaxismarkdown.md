@@ -1,8 +1,8 @@
-# Markdown Sintaxis... ⬇️
+# Encabezados ⬇️
 
 <!--
-    Desde el h1 al h6 con el operador #
-    [ h1= # ],[ h2= ## ],[ h=3 ###] ,[ h=4 #### ],[ h=5 #####],[ h=6 ######]
+    Desde el h1 al h6 con el operador #.
+    Siempre tenemos que dejar un espacio entre los operadores y el texto, ya que de otra forma no reconocerá el tipo de encabezado.
 -->
 
 # h1 Header
@@ -17,7 +17,7 @@
 
 ###### h6 Header
 
----
+# Párrafo ⬇️
 
 <!--
   Esto es un <p>
@@ -25,7 +25,7 @@
 
 Nos basta solo con escribir sin más.
 
----
+# Listas desordenadas ⬇️
 
 <!--
     Listas desordenada, se puede utilizar los operadores: * , - , + cualquiera de esos tres.
@@ -34,17 +34,20 @@ Nos basta solo con escribir sin más.
 - Elemento 1
 - Elemento 2
 - Elemento 3
-  - Elemento 4, Comienzo lista anidada dejando 4 espacios en blanco.
+  - Elemento 4, "Anidado dejando 4 espacios en blanco."
+    - Otro Elemento, "Anidado dejando 8 espacios en blanco."
 
 * Elemento 1
 * Elemento 2
 * Elemento 3
-  - Elemento 4, Comienzo lista anidada dejando 4 espacios en blanco.
+  - Elemento 4, "Anidado dejando 4 espacios en blanco."
 
 - Elemento 1
 - Elemento 2
 - Elemento 3
-  - Elemento 4, Comienzo lista anidada dejando 4 espacios en blanco.
+  - Elemento 4, "Anidado dejando 4 espacios en blanco."
+
+# Listas ordenadas ⬇️
 
 <!--
     Listas ordenadas, hay que usar << número >> ejemplo: 1. y aquí el texto.
@@ -53,53 +56,75 @@ Nos basta solo con escribir sin más.
 
 1. Elemento 1
 2. Elemento 2
-   - Elemento, desordenado en medio
-   - Elemento, desordenado en medio
+   - Elemento, "Anidado dejando 4 espacios en blanco."
+   - Elemento, "Anidado dejando 4 espacios en blanco."
 3. Elemento 3
 4. Elemento
-   - Comienzo lista anidada dejando 4 espacios en blanco.
-   - Elemento
-     - Otro elemento
+   - Elemento, "Anidado dejando 4 espacios en blanco."
+   - Elemento, "Anidado dejando 4 espacios en blanco."
+     - Otro Elemento, "Anidado dejando 8 espacios en blanco."
 
 ---
+
+# Lista de verificación ⬇️
 
 <!--
-  Creando listas de verificación con el operador [x] Verificado, importante dejar un espacio vacía en las casillas vacías
+  Creando listas de verificación con el operador [ ] = sin verificar, [X] = verificado. Hay que recordar que si los corchetes están vacíos sin verificar, hay que dejar un espacio en blanco.
 -->
 
-[ ] A
+[x] A
+
 [ ] B
+
 [ ] C
 
----
+# Citas ⬇️
 
 <!--
     Creando Citas con el operador: >
  -->
 
-> Esto es una cita en MarkDown, se puede ver que es muy simple, colocando el operador matemático mayor que.
+> Esto es una cita en Markdown, es tan sencillo como colocar el operador mayor: > y se nos crea una cita automáticamente, si queremos tener un salto de linea pero seguir en la misma cita, hay que dejar otro operador
+>
+> Esto hace que podamos seguir en la misma cita sin la necesidad de crear otra.
 
-> Esta es la siguiente cita, siempre dejando un espacio, entre cita y cita.
+# Citas anidadas ⬇️
 
 <!--
     Creando Citas anidadas con el doble operador: >>
  -->
 
-> Esto es una cita normal en MarkDown,
-
-> > Y esta es la cita anidada con el doble operador matemático mayor que: >>
+> Esta es la primera cita a la cual queremos anidar otra cita.
+>
+> > Y esta es la cita anidada.
 
 ---
+
+# Bloque de código ⬇️
 
 <!--
     Creando un bloque de texto, para definir código en Html por ejemplo. Se consigue con el operador ```, ~~~.
  -->
 
 ```
-Esto es simulando un bloque de código <h1>Hola mundo</h1>
+Esto es simulando un bloque en el cual podemos introducir código con etiquetas <h1>Hola mundo</h1> para presentar código ya que este no lo ejecuta.
 ```
 
 ---
+
+# Filas de código ⬇️
+
+<!--
+    Código puro, se utiliza el operador `Texto`
+ -->
+
+`Esto son filas en las cuales podemos introducir código igual que en el ejemplo anterior, pudiendo comprobar así, su mayor diferencia <h1>Hola</h1>`
+
+`Esto son filas en las cuales podemos introducir código igual que en el ejemplo anterior, pudiendo comprobar así, su mayor diferencia <h1>Hola</h1>`
+
+---
+
+# Estilos de texto ⬇️
 
 <!--
     Aquí las diferentes formas de llamar a las negritas y cursivas con los operadores * o _.
@@ -109,31 +134,42 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
 
 ---
 
+# Links en linea ⬇️
+
 <!--
-    Links o Enlaces en linea , se crean con los operadores:[]() ejemplo:[Aquí el texto a    mostrar](Aquí el enlace)
+    Links o Enlaces en linea , se crean con los operadores:[]() ejemplo:[Aquí el texto a mostrar](Aquí el enlace)
  -->
 
 ## [Link a una página web](https://github.com/0sc4rj)
 
 [Link a una imagen](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
+---
+
+# Mejorando los enlaces en linea ⬇️
+
 <!--
-    Mejorando los Links o Enlaces en linea, para poder reutilizarlo en cualquier parte del código. con el operador [nombre que quiero darle al enlace][nombre de la referencia] Ejemplo: [][]
+    Mejorando los Links o Enlaces en linea, para poder reutilizarlo en cualquier parte del código. con el operador [nombre que quiero darle al enlace][nombre de la referencia].
  -->
 
 [github]: https://github.com/0sc4rj
+[roberto]: https://marca.com
 
-[Esto es un enlace a GitHub][github]
+Si nos damos cuenta ahora podemos declarar el enlace en cualquier parte de nuestro código, [de esta forma nos aparecería este texto][github], o sin tener que incluir texto [github], con la primera mayúscula [Github] o incluso con todo mayúscula [GITHUB].
 
 ---
+
+# Mostrando solo una URL ⬇️
 
 <!--
-    Código puro, se utiliza el operador `Texto`
+  Links Automáticos, validos para mostrar una URL completa sin modificar y se utilizan los operadores <URL>
  -->
 
-`Esto es una linea de código puro <h1>Hola mundo </h1>`
+<http://github.com/0sc4rj>
 
 ---
+
+# Insertando imágenes ⬇️
 
  <!-- 
     Insertando imágenes con el operador 
@@ -150,6 +186,8 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
 ![Esta es una imagen del logo de Ubuntu](/img/Groupgithub-orange.svg "etiqueta alt")
 
 ---
+
+# Mejorando las imágenes ⬇️
 
 <!--
     Reutilización de imágenes, mejorando el código
@@ -189,23 +227,25 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
 ---
 
 <!--
-  Links Automáticos, validos para mostrar una URL completa y se utilizan los operadores <URL>
+  Podemos mostrar los operadores utilizados en Markdown markdown con el operador barra invertida \ delante del operador a mostrar.
  -->
 
-<http://github.com/0sc4rj>
+\# Este Encabezado no es válido.
 
-<!--
-  Podemos omitir markdown con el operador barra invertida \ Ejemplo \ # h1
- -->
+\> Esto no es una cita.
 
-# h1
+\- No hay lista desordenada.
 
-\ # h1
+\* Idéntico al anterior.
+
+\+ Idéntico al anterior.
 
 ---
+
+# Tablas de datos ⬇️
 
 <!--
   Tablas en Markdown
  -->
 
-proximamente ( Tablas en Markdown )
+Próximamente ( Tablas en Markdown )
