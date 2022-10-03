@@ -188,4 +188,4 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
   Tablas en Markdown
  -->
 
-proximamente
+proximamente ( Tablas en Markdown )
