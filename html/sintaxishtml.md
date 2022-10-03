@@ -25,3 +25,5 @@
             <footer><!-- Pie de pagina --></footer>
         </body>
  </html>
+
+ <p>Proximamente más etiquetas html</p>
