@@ -19,3 +19,5 @@ reset -
 rm -
 
 mv -
+
+(promimamente más comandos de interes)
