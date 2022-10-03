@@ -153,7 +153,6 @@ _cursiva_ | _cursiva_ | **Negrita** | **_Cursiva y Negrita_**
  -->
 
 [github]: https://github.com/0sc4rj
-[roberto]: https://marca.com
 
 Si nos damos cuenta ahora podemos declarar el enlace en cualquier parte de nuestro código, [de esta forma nos aparecería este texto][github], o sin tener que incluir texto [github], con la primera mayúscula [Github] o incluso con todo mayúscula [GITHUB].
 

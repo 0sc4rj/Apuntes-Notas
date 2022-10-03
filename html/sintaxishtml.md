@@ -26,4 +26,4 @@
         </body>
  </html>
 
- <p>Proximamente más etiquetas html</p>
+ <p>Próximamente más etiquetas html</p>
